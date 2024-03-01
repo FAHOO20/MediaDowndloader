@@ -2,7 +2,14 @@ import youtube_dl
 import os
 import re
 
-""" this is a simple program to download episodes from a show, and each episodes file name must have this structure, example : ShowNameS01E05 """
+""" 
+TV Show Episode Downloader
+
+A versatile script for downloading episodes from various online video platforms. 
+It automatically formats the downloaded files in a structured naming convention, 'ShowNameS01E05', 
+facilitating easy organization and management of TV show collections.
+Designed for flexibility and ease of use across multiple video sources.
+ """
 
 def list_files_in_directory(directory):
     """List all files in the given directory and store their names in an array."""
