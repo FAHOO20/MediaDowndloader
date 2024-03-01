@@ -54,7 +54,7 @@ season_number = '01'  # Modify as needed
 
 
 video_url = input("Enter video URL: ")
-
+show_name = input("Enter Show Name: ")
 # Create a YoutubeDL object and extract video info
 with youtube_dl.YoutubeDL() as ydl:
     info_dict = ydl.extract_info(video_url, download=False)
@@ -67,7 +67,7 @@ if episode_number == "No number found in the string !":
 
 
 output_directory = input("enter your output directory: ")
-file_name = f"GaddarS{season_number}E{episode_number}"
+file_name = f"{show_name}S{season_number}E{episode_number}"
 
 ydl_opts = {
     'format': 'best',
