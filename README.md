@@ -6,7 +6,7 @@ This program is designed to download individual episodes of TV shows from variou
 ## Features
 - **Multi-Platform Support**: Compatible with various video platforms, not limited to YouTube.
 - **Automatic Episode Number Extraction**: Extracts the episode number from the video title and formats it systematically.
-- **Custom File Naming**: Downloads are saved with names following the format `ShowNameS[season]E[episode_number]`.
+- **Custom File Naming**: Downloads are saved with names following the format `[ShowName]S[season]E[episode_number]`.
 - **Directory Listing**: The program can list all files in a given directory, useful for managing downloaded content.
 
 ## Usage
